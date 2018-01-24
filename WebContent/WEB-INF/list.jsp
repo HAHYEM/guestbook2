@@ -42,7 +42,7 @@
 					<td><a href="deleteform.jsp?no=<%=vo.getNo() %>">삭제</a></td>
 				</tr>
 				<tr>
-					<td colspan=4<%=vo.getContent() %>></td>
+					<td colspan=4><%=vo.getContent() %></td>
 				</tr>
 			</table>
 		    <br/>
