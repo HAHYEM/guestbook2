@@ -136,6 +136,7 @@ public class GuestbookDao {
 			String query = "DELETE FROM guestbook WHERE no = ?";
 			pstmt = conn.prepareStatement(query);
 			pstmt.setInt(1, no);
+			
 
 			int count = pstmt.executeUpdate();
 
